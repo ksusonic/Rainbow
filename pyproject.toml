@@ -1,0 +1,13 @@
+[project]
+name = "rainbow"
+version = "0.1.0"
+description = "Rainbow: Combining Improvements in Deep Reinforcement Learning "
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "atari-py>=0.2.9",
+    "opencv-python>=4.11.0.86",
+    "plotly>=6.0.1",
+    "torch>=2.6.0",
+    "tqdm>=4.67.1",
+]
