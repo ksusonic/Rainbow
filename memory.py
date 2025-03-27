@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-from __future__ import division
 import numpy as np
 import torch
 
@@ -176,5 +174,3 @@ class ReplayMemory():
     state = torch.tensor(transitions['state'], dtype=torch.float32, device=self.device).div_(255)  # Agent will turn into batch
     self.current_idx += 1
     return state
-
-  next = __next__  # Alias __next__ for Python 2 compatibility
